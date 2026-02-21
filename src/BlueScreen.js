@@ -14,7 +14,7 @@ const BlueScreen = ({ setStage })  => {
         const increment = Math.floor(Math.random() * 5) + 1;
         return Math.min(prev + increment, 100);
       });
-    }, 300);
+    }, 750);
 
     return () => clearInterval(interval);
   }, []);

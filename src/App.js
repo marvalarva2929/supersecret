@@ -9,7 +9,7 @@ import Surprise from './Surprise';
 
 function App() {
 	
-	const [stage, setStage] = useState(0);
+	const [stage, setStage] = useState(1);
 			
   return (
     <div className="App">
