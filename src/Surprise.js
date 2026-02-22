@@ -83,7 +83,9 @@ const Surprise = ()  => {
 
     return (
         <div className = "Surprise" ref = {containerRef}>
-            <h1>happy birthday you freaking chud &lt;3</h1>
+            <h1>Happy birthday Arthur!!  &lt;3</h1>
+			<p> We're all really grateful to have you as a friend. Ur one of the coolest ppl ever. Hope you enjoyed the surprise!!! You have saved the KGC through wit and determination.
+		</p>
             {randomizedImgs.map((imgData, index) => {
                 return (<img key={index} src={imgData.url} style={{ 
                     top: imgData.top, 
