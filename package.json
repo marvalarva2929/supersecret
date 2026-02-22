@@ -2,6 +2,7 @@
   "name": "aday",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marvalarva2929.github.io/supersecret/",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@testing-library/dom": "^10.4.1",
