@@ -1,0 +1,29 @@
+.Mushroom {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    
+    padding-top: 15vh;
+    padding-left: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.Mushroom p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.Mushroom input {
+    padding: 10px;
+    margin-top: 30px;
+    width: 25%;
+}
