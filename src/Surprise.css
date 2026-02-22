@@ -1,0 +1,26 @@
+.Surprise {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+    padding-top: 15vh;
+    padding-left: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.Surprise img {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    z-index: 50;
+    border: 1px solid white;
+}
